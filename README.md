@@ -26,15 +26,15 @@ To enhance the performance of our MLP-based face recognition model, I conducted 
 using a 3-fold cross-validation approach. Our custom scoring metrics for accuracy, precision, recall, and F1 score were employed to identify the best configuration. After extensive hyperparameter tuning, the best configuration was
 identified, yielding the following hyperparameters:
 Activation function: ’relu’
-• Batch size: 64
-• Number of epochs: 70
-• Hidden layers: [128, 64]
-• Optimizer: ’adam’
+1. Batch size: 64
+2. Number of epochs: 70
+3. Hidden layers: [128, 64]
+4. Optimizer: ’adam’
 
 ## Experimental Results
 The model was evaluated on the testing dataset, and the following performance metrics were calculated:
-• Accuracy: 0.8182 (81.82%)
-• Precision: 0.8929 (89.29%)
-• Recall: 0.8667 (86.67%)
-• F1 Score: 0.8441 (84.41%)
+1. Accuracy: 0.8182 (81.82%)
+2. Precision: 0.8929 (89.29%)
+3. Recall: 0.8667 (86.67%)
+4. F1 Score: 0.8441 (84.41%)
 
